@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: core
-          image: besthj/k8s-demo:latest
+          image: besthj/k8s-demo:1.0
           imagePullPolicy: Always
           ports:
             - containerPort: 8082
